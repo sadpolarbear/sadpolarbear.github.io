@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/07/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>markdown 知识总结</title>
     <url>/2023/08/11/markdown%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<h1 id="1-打对号-或者-叉号-以及特殊符号"><a href="#1-打对号-或者-叉号-以及特殊符号" class="headerlink" title="1 打对号 或者 叉号  以及特殊符号"></a>1 打对号 或者 叉号  以及特殊符号</h1><ol>
@@ -305,18 +287,22 @@
       </tags>
   </entry>
   <entry>
-    <title>变与不变</title>
-    <url>/2023/07/16/%E5%8F%98%E4%B8%8E%E4%B8%8D%E5%8F%98-%E8%8B%B9%E6%9E%9C%E6%A0%91%E7%90%86%E8%AE%BA/</url>
-    <content><![CDATA[<h2 id="变与不变"><a href="#变与不变" class="headerlink" title="变与不变"></a>变与不变</h2><h3 id="苹果树理论"><a href="#苹果树理论" class="headerlink" title="苹果树理论"></a>苹果树理论</h3><p>一切变化的事物都是以不变的事物之上发现出来的，更明确的说，现代科技是有基础理论衍生出来的，通俗的说，只有知道基础理论，才能理解现在的科技的优势。</p>
-<p>世界万物都有自己的分类，每一种职业的前百分之20获得了百分之80的资源，同时展现他们应有的能力。隔行如隔山，你想了解一份壁垒不高的职业，很轻松，但是想进入前百分之20，非常困难。在伟大的天才，也只是在某一方面，不可能样样都优秀，在互联网的大环境下，让你以为你可以，但是实际上你不可能做到。在现在的互联网上，你点开维基百科或者百度百科，通过你高中的知识，你可以轻松的了解这个职业所代表的是什么，但是你不花几年的努力，你压根无法接触这个职业的伟大。</p>
-<p>在这个浮躁的世界里，做好你自己，扎根于独属于自己的土壤，以扎实的基础不断去拓张，最后长成参天大树，以不变应万变，追求知识的深度，以累累果实回馈那些值得被爱的人！</p>
+    <title>Hello World</title>
+    <url>/2023/07/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>心得体会</category>
-      </categories>
-      <tags>
-        <tag>温暖</tag>
-      </tags>
   </entry>
   <entry>
     <title>安全用电</title>
@@ -506,6 +492,20 @@
       </categories>
       <tags>
         <tag>知识</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>变与不变</title>
+    <url>/2023/07/16/%E5%8F%98%E4%B8%8E%E4%B8%8D%E5%8F%98-%E8%8B%B9%E6%9E%9C%E6%A0%91%E7%90%86%E8%AE%BA/</url>
+    <content><![CDATA[<h2 id="变与不变"><a href="#变与不变" class="headerlink" title="变与不变"></a>变与不变</h2><h3 id="苹果树理论"><a href="#苹果树理论" class="headerlink" title="苹果树理论"></a>苹果树理论</h3><p>一切变化的事物都是以不变的事物之上发现出来的，更明确的说，现代科技是有基础理论衍生出来的，通俗的说，只有知道基础理论，才能理解现在的科技的优势。</p>
+<p>世界万物都有自己的分类，每一种职业的前百分之20获得了百分之80的资源，同时展现他们应有的能力。隔行如隔山，你想了解一份壁垒不高的职业，很轻松，但是想进入前百分之20，非常困难。在伟大的天才，也只是在某一方面，不可能样样都优秀，在互联网的大环境下，让你以为你可以，但是实际上你不可能做到。在现在的互联网上，你点开维基百科或者百度百科，通过你高中的知识，你可以轻松的了解这个职业所代表的是什么，但是你不花几年的努力，你压根无法接触这个职业的伟大。</p>
+<p>在这个浮躁的世界里，做好你自己，扎根于独属于自己的土壤，以扎实的基础不断去拓张，最后长成参天大树，以不变应万变，追求知识的深度，以累累果实回馈那些值得被爱的人！</p>
+]]></content>
+      <categories>
+        <category>心得体会</category>
+      </categories>
+      <tags>
+        <tag>温暖</tag>
       </tags>
   </entry>
   <entry>
