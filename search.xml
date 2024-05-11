@@ -19,6 +19,20 @@
 ]]></content>
   </entry>
   <entry>
+    <title>变与不变</title>
+    <url>/2023/07/16/%E5%8F%98%E4%B8%8E%E4%B8%8D%E5%8F%98-%E8%8B%B9%E6%9E%9C%E6%A0%91%E7%90%86%E8%AE%BA/</url>
+    <content><![CDATA[<h2 id="变与不变"><a href="#变与不变" class="headerlink" title="变与不变"></a>变与不变</h2><h3 id="苹果树理论"><a href="#苹果树理论" class="headerlink" title="苹果树理论"></a>苹果树理论</h3><p>一切变化的事物都是以不变的事物之上发现出来的，更明确的说，现代科技是有基础理论衍生出来的，通俗的说，只有知道基础理论，才能理解现在的科技的优势。</p>
+<p>世界万物都有自己的分类，每一种职业的前百分之20获得了百分之80的资源，同时展现他们应有的能力。隔行如隔山，你想了解一份壁垒不高的职业，很轻松，但是想进入前百分之20，非常困难。在伟大的天才，也只是在某一方面，不可能样样都优秀，在互联网的大环境下，让你以为你可以，但是实际上你不可能做到。在现在的互联网上，你点开维基百科或者百度百科，通过你高中的知识，你可以轻松的了解这个职业所代表的是什么，但是你不花几年的努力，你压根无法接触这个职业的伟大。</p>
+<p>在这个浮躁的世界里，做好你自己，扎根于独属于自己的土壤，以扎实的基础不断去拓张，最后长成参天大树，以不变应万变，追求知识的深度，以累累果实回馈那些值得被爱的人！</p>
+]]></content>
+      <categories>
+        <category>心得体会</category>
+      </categories>
+      <tags>
+        <tag>温暖</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>markdown 知识总结</title>
     <url>/2023/08/11/markdown%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<h1 id="1-打对号-或者-叉号-以及特殊符号"><a href="#1-打对号-或者-叉号-以及特殊符号" class="headerlink" title="1 打对号 或者 叉号  以及特殊符号"></a>1 打对号 或者 叉号  以及特殊符号</h1><ol>
@@ -183,8 +197,12 @@
 <details>
     <summary>折叠标签</summary>
     <p>邮件地址标签 （<code>3080733673@qq.com</code>）：</p>
-    <iframe src="https://zhixingo.github.io/plays/pdfv/?url=https://files.catbox.moe/5iz1r9.pdf" height="400" frameborder="0" scrolling="no"></iframe>
+<embed src="https://www.lilnong.top/static/pdf/B-4-RxJS%E5%9C%A8React%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8-%E9%BE%99%E9%80%B8%E6%A5%A0_.pdf" height="500" width="700">
 </details>
+
+
+
+
 
 
 
@@ -205,7 +223,7 @@
         多行内容<br>
         不至于让分不清哪里是折叠内容的结束<br>
         链接<a href='url'>hello worlld</a><br>
-<table><tr><td bgcolor=yellow>自己的思考</td></tr></table>
+<table><tr><td bgcolor=black>自己的思考</td></tr></table>
       </td>
     </tr>
   </table>
@@ -307,20 +325,6 @@
       </categories>
       <tags>
         <tag>知识</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>变与不变</title>
-    <url>/2023/07/16/%E5%8F%98%E4%B8%8E%E4%B8%8D%E5%8F%98-%E8%8B%B9%E6%9E%9C%E6%A0%91%E7%90%86%E8%AE%BA/</url>
-    <content><![CDATA[<h2 id="变与不变"><a href="#变与不变" class="headerlink" title="变与不变"></a>变与不变</h2><h3 id="苹果树理论"><a href="#苹果树理论" class="headerlink" title="苹果树理论"></a>苹果树理论</h3><p>一切变化的事物都是以不变的事物之上发现出来的，更明确的说，现代科技是有基础理论衍生出来的，通俗的说，只有知道基础理论，才能理解现在的科技的优势。</p>
-<p>世界万物都有自己的分类，每一种职业的前百分之20获得了百分之80的资源，同时展现他们应有的能力。隔行如隔山，你想了解一份壁垒不高的职业，很轻松，但是想进入前百分之20，非常困难。在伟大的天才，也只是在某一方面，不可能样样都优秀，在互联网的大环境下，让你以为你可以，但是实际上你不可能做到。在现在的互联网上，你点开维基百科或者百度百科，通过你高中的知识，你可以轻松的了解这个职业所代表的是什么，但是你不花几年的努力，你压根无法接触这个职业的伟大。</p>
-<p>在这个浮躁的世界里，做好你自己，扎根于独属于自己的土壤，以扎实的基础不断去拓张，最后长成参天大树，以不变应万变，追求知识的深度，以累累果实回馈那些值得被爱的人！</p>
-]]></content>
-      <categories>
-        <category>心得体会</category>
-      </categories>
-      <tags>
-        <tag>温暖</tag>
       </tags>
   </entry>
   <entry>
