@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2023/07/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>markdown 知识总结</title>
     <url>/2023/08/11/markdown%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<h1 id="1-打对号-或者-叉号-以及特殊符号"><a href="#1-打对号-或者-叉号-以及特殊符号" class="headerlink" title="1 打对号 或者 叉号  以及特殊符号"></a>1 打对号 或者 叉号  以及特殊符号</h1><ol>
@@ -293,46 +311,6 @@
       </categories>
       <tags>
         <tag>文档知识</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/07/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>simulink常见技巧</title>
-    <url>/2024/08/11/sumulink%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<ol>
-<li><p>找元件：在空白地方点左键一下，过两秒后会出现放大镜，然后点放大镜就可以直接输入找模块了。</p>
-</li>
-<li><p>顺时针：右键→Rotate&amp;Flip→Clockwise；逆时针：右键→Rotate&amp;Flip→Counterclockwise. </p>
-<p>​	快捷键ctrl+R</p>
-</li>
-<li><p>高版本Simulink仿真时找不到Synchronized 6-Pulse Generator的解决方法</p>
-<p>​		在命令行窗口中输入powerlib_extras 在弹出的页面中： powerlib_extras&#x2F;Control Blocks, powerlib_extras&#x2F;Discrete Control Blocks即可。</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>系统学习</category>
-        <category>matlab</category>
-      </categories>
-      <tags>
-        <tag>建模知识</tag>
       </tags>
   </entry>
   <entry>
@@ -1338,6 +1316,184 @@ title(&#39;Bins = 50&#39;);
       </tags>
   </entry>
   <entry>
+    <title>土木老哥和网文小白</title>
+    <url>/2024/08/14/%E5%9C%9F%E6%9C%A8%E8%80%81%E5%93%A5%E5%92%8C%E7%BD%91%E6%96%87%E5%B0%8F%E7%99%BD/</url>
+    <content><![CDATA[<h1 id="青春的告别和梦想的延续"><a href="#青春的告别和梦想的延续" class="headerlink" title="青春的告别和梦想的延续"></a>青春的告别和梦想的延续</h1><blockquote>
+<p>快乐的时光总是那么短暂,别说九十分钟的两集特别节目了,就连至今为止八十集的爱情公寓,也没能满足大家对快乐和美好的渴望，再多的花絮、幕后、彩蛋、回顾，也抵不过再来一季的幸福，青春没有极限我们的故事没有终点，爱情公寓第四季虽然暂告一段落，但请永远记住，那个会传来欢笑和尖叫的小房子，就在你的面前，最好的朋友就在身边，而最爱的人，就住在对面。某年某月，某时某地，仔细留意花瓣飘来的方向吧！没错那个地方叫做，爱情公寓。</p>
+</blockquote>
+<p>当这句话被lisa说完的时候，陪伴我整个青春的《爱情公寓》结束了，那一瞬间我突然觉得自己长大了，青春似乎远去了。既悲伤，也感慨。当大家离开呢个小屋子的时候，我明白自己也该勇敢起身追求自己的梦想和幸福了！</p>
+<p>不愿长大的我是幼稚的，爱情公寓里的每个人都在积极自信的追求爱情和梦想，为什么我还不愿意努力而拼搏了？不要苦大仇深，也不要压抑自己。</p>
+<p>请相信，摆脱偏见勇敢做自己，只要心中充满欢笑，世界就依旧灿烂美好。那个爱情公寓的小屋子，其实一直住在你心里。</p>
+<p>愿我们心中都充满欢笑，加油！</p>
+<h1 id="土木老哥"><a href="#土木老哥" class="headerlink" title="土木老哥"></a>土木老哥</h1><blockquote>
+<p>成功不在于挣多少钱，而在于用自己喜欢的方式过完一生。</p>
+</blockquote>
+<p>高考时，家人亲戚都劝我学医，我选了土木工程；</p>
+<p>考研时，一起备考的哥们极力劝我考北大人大央财金融经济，我还是选择了结构工程；</p>
+<p>毕业时，有十多个地产管培生的offer，我选择了设计院；进了国考复试，没去。</p>
+<p>八年前，曾有大佬想带我转行投行私募，我当时画图正热火朝天一腔热血，果断谢绝；</p>
+<p>…</p>
+<p>然而，我不后悔，因为我实现了儿时的梦想——小时候喜欢用土砖、木板盖房子，大学读了土木工程；08年看到夏奥会鸟巢、水立方心潮澎湃，10年之后在心目中偶像大师的指导下参与了冬奥会的场馆设计工作，可以说得上夙愿得偿、了无遗憾。</p>
+<p>人到中年，从零开始，再次出发，不过是从头再来。我心依旧是少年。</p>
+<p>[1]：<a href="https://www.zhihu.com/question/511595149/answer/2614013006">https://www.zhihu.com/question/511595149/answer/2614013006</a></p>
+<h1 id="网文小白"><a href="#网文小白" class="headerlink" title="网文小白"></a>网文小白</h1><p>你们都不知道起点吧宝巨的故事吗？</p>
+<p>这大哥是真的励志。</p>
+<p>我每次不想码字颓废的时候，就看看这大哥的帖子给自己打鸡血。</p>
+<p>…………</p>
+<p>宝巨14年在<a href="https://www.zhihu.com/search?q=%E8%B5%B7%E7%82%B9%E5%90%A7&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">起点吧</a>开贴，记录自己的网文生涯。</p>
+<p>开始，这货写了二十多个开头，然后都没签约。</p>
+<p>后来好不容易签约了一本，但是只拿了几个蚊子腿的小推荐，三十万字上架。</p>
+<p>当时666个收藏，高订3，均订2.7……</p>
+<p>这个数据真的扑街到姥姥家了。</p>
+<p>不过宝巨真的是个超级有毅力的人，平均每天能写一万五千字，从不断更。</p>
+<p>这本书一百万字完本。当时4600收藏，均订17.8</p>
+<p>宝巨当时每个月大概能拿全勤1000块，外加几十块的稿费钱。</p>
+<p>然鹅，虽说完本必神，百万必神，但是宝巨的网文路依旧坎坷。</p>
+<p>连着写了多本新书开头，全都被毙掉了。</p>
+<p>后来磨了好久才终于又有一本签约了。</p>
+<p>这本书成绩明显好于上一本，还上了新书榜。</p>
+<p>而且，还拿了几个不错的推荐。</p>
+<p>然后宝巨就感慨的讲了一个故事</p>
+<p><img src="https://pica.zhimg.com/80/v2-f73ba1c67d9d826381b3d0a6e2c6d4a8_1440w.webp?source=1def8aca" alt="img"></p>
+<p>这故事流传很广了，我都快听烂了，但是听宝巨讲这个故事，格外能打动人心。</p>
+<p>这期间，由于新书期没稿费，宝巨生活苦难，然后热心读者给了寄了两条烟……</p>
+<p>真的是惨到家……</p>
+<p>然后新书上架后，收藏2200，均订只有13.</p>
+<p>虽然比上一本强多了，但是显然也很烂。</p>
+<p>这期间，宝巨为了养活自己，于是开始写了一本千字8的买断文糊口。</p>
+<p>每天两本书加起来要写两万字。</p>
+<p>不过付出总有回报，在巨大的更新量下，他的月收入突破了3000.</p>
+<p>最终，这本书以大概50均订完本收尾。</p>
+<p>然后又开新书。结果新书成绩更烂。</p>
+<p>他找了几个大神指点。</p>
+<p>虽然颇有收益，但最终决定切文太监。</p>
+<p>接着，他重新的开头一个又一个的被毙掉。</p>
+<p>甚至怀疑起点编辑集体把他拉黑了。</p>
+<p>看得出来，这段期间，宝巨备受打击。</p>
+<p>不过，让他感动的是，一个刚结婚的读者，雪中送炭，专门给了两千块救济他。</p>
+<p>铁头娃是不能怂的，于是，宝巨继续莽！</p>
+<p>新书从分强一路上了三江推荐，</p>
+<p>上架一万二收藏，首订一百八，均订一百多。</p>
+<p>于是宝巨开始爆更。每天超过一万五千字更新。</p>
+<p>这一次，他的努力终于获得了些许回报。</p>
+<p>均订开始持续走高，完本时订阅到了800.</p>
+<p>月稿费最多拿到六千。</p>
+<p>然后，由于题材比较合适，卖掉了两个版权</p>
+<p>（说句额外的话，版权收入比订阅高多了，所以他的生活应该有所改善。）</p>
+<p>然后，下一本新书，又是一路推荐到<a href="https://www.zhihu.com/search?q=%E4%B8%89%E6%B1%9F&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">三江</a>。</p>
+<p>上架收藏两万，首订900。</p>
+<p>比上一本书成绩又强了一大截。</p>
+<p>当月稿费大概到了七千多。</p>
+<p>后来一路飙升，涨到了一万七。</p>
+<p>然后<a href="https://www.zhihu.com/search?q=%E5%AE%9D%E5%B7%A8&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">宝巨</a>买了人生中的第一辆车。</p>
+<p>嗯，这大概是宝巨入行的第三年。</p>
+<p>到了18年，宝巨的座驾换成了<a href="https://www.zhihu.com/search?q=%E5%AE%9D%E9%A9%AC%E5%B0%8F%E8%B7%91&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">宝马小跑</a>。</p>
+<p>他感觉到了自己的瓶颈，于是转而出走起点，转战<a href="https://www.zhihu.com/search?q=%E9%BB%91%E5%B2%A9&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">黑岩</a>、飞卢和掌阅。</p>
+<p>在飞卢曾经写过到天榜第一。</p>
+<p>磨铁销售榜单前十。</p>
+<p>掌阅前三十。</p>
+<p>当月所有书的稿费加起来，首次突破十万块！</p>
+<p>八个月后，宝巨重新杀回起点。</p>
+<p>新书首订七千，完本时均订一万三。</p>
+<p>写了俩月，挣了二十来万。</p>
+<p>写到八十万的时候，果断决定完本。</p>
+<p>按照他的说法是：</p>
+<p><img src="https://picx.zhimg.com/80/v2-0db1027fde404837eecfc0250087ab40_1440w.webp?source=1def8aca" alt="img"></p>
+<p>这一点我真的很佩服，我要是能写出一个月十万块的书，我能写到起点倒闭……</p>
+<p>…………</p>
+<p>他最新的一次回复，是在今年六月底。</p>
+<p>他的宝马已经卖了，换了一辆<a href="https://www.zhihu.com/search?q=%E4%BF%9D%E6%97%B6%E6%8D%B7%E8%B7%91%E8%BD%A6&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">保时捷跑车</a>……</p>
+<p>…………</p>
+<p>怎么说呢，像土豆这种第一本书拿下起点新人王，第二本书火遍全网的人，根本不适合做新人的榜样。</p>
+<p>因为没法学习……</p>
+<p>但宝巨的故事，才是真的能激励每一个普通的写手。</p>
+<p>他真的一步一个脚印的走过来的。</p>
+<p>每一步都缓慢而坚定。</p>
+<p>从第一本书首订3，写到第二本17，再到第三本100，再到第四本900……一直到现在首订七千！</p>
+<p>历经无数挫折，依旧百折不挠！</p>
+<p>最后的最后，奉上一句网文圈最响亮的话，与诸君共勉：</p>
+<p><strong>最穷不过啃方便面，手不断总会出头！</strong></p>
+<p>[2]：<a href="https://www.zhihu.com/question/46838130/answer/2031243435">https://www.zhihu.com/question/46838130/answer/2031243435</a></p>
+<h1 id="纽约比加州时间早3个小时"><a href="#纽约比加州时间早3个小时" class="headerlink" title="纽约比加州时间早3个小时"></a>纽约比加州时间早3个小时</h1><blockquote>
+<p>每个人都有自己的青春和梦想，按照自己的节奏走过一生吧！</p>
+</blockquote>
+<p><strong>New York is 3 hours ahead of California,</strong></p>
+<p>纽约时间比加州时间早三个小时，</p>
+<p><strong>but it does not make California slow.</strong></p>
+<p>但加州时间并没有变慢。</p>
+<p><strong>Someone graduated at the age of 22,</strong></p>
+<p>有人22岁就毕业了，</p>
+<p><strong>but waited 5 years before securing a good job!</strong></p>
+<p>但等了五年才找到好的工作！</p>
+<p><strong>Someone became a CEO at 25,</strong></p>
+<p>有人25岁就当上CEO，</p>
+<p><strong>and died at 50.</strong></p>
+<p>却在50岁去世。</p>
+<p><strong>While another became a CEO at 50,</strong></p>
+<p>也有人迟到50岁才当上CEO，</p>
+<p><strong>and lived to 90 years.</strong></p>
+<p>然后活到90岁。</p>
+<p><strong>Someone is still single,</strong></p>
+<p>有人依然单身，</p>
+<p><strong>while someone else got married.</strong></p>
+<p>同时也有人已婚。</p>
+<p><strong>Obama retires at 55,</strong></p>
+<p>奥巴马55岁就退休，</p>
+<p><strong>but Trump starts at 70.</strong></p>
+<p>川普70岁才开始当总统。</p>
+<p><strong>Absolutely everyone in this world works based on their Time Zone.</strong></p>
+<p>世上每个人本来就有自己的发展时区。</p>
+<p><strong>People around you might seem to go ahead of you,</strong></p>
+<p>身边有些人看似走在你前面，</p>
+<p><strong>some might seem to be behind you.</strong></p>
+<p>也有人看似走在你后面。</p>
+<p><strong>But everyone is running their own RACE, in their own TIME.</strong></p>
+<p>但其实每个人在自己的时区有自己的步程。</p>
+<p><strong>Don’t envy them or mock them.</strong></p>
+<p>不用嫉妒或嘲笑他们。</p>
+<p><strong>They are in their TIME ZONE, and you are in yours!</strong></p>
+<p>他们都在自己的时区里，你也是！</p>
+<p><strong>Life is about waiting for the right moment to act.</strong></p>
+<p>生命就是等待正确的行动时机。</p>
+<p><strong>So, RELAX.</strong></p>
+<p>所以，放轻松。</p>
+<p><strong>You’re not LATE.</strong></p>
+<p>你没有落后。</p>
+<p><strong>You’re not EARLY.</strong></p>
+<p>你没有领先。</p>
+<p><strong>You are very much ON TIME, and in your TIME ZONE Destiny set up for you.</strong></p>
+<p>在命运为你安排的属于自己的时区里，一切都准时。</p>
+]]></content>
+      <categories>
+        <category>励志名人堂</category>
+      </categories>
+      <tags>
+        <tag>励志故事</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>simulink常见技巧</title>
+    <url>/2024/08/11/sumulink%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<ol>
+<li><p>找元件：在空白地方点左键一下，过两秒后会出现放大镜，然后点放大镜就可以直接输入找模块了。</p>
+</li>
+<li><p>顺时针：右键→Rotate&amp;Flip→Clockwise；逆时针：右键→Rotate&amp;Flip→Counterclockwise. </p>
+<p>​	快捷键ctrl+R</p>
+</li>
+<li><p>高版本Simulink仿真时找不到Synchronized 6-Pulse Generator的解决方法</p>
+<p>​		在命令行窗口中输入powerlib_extras 在弹出的页面中： powerlib_extras&#x2F;Control Blocks, powerlib_extras&#x2F;Discrete Control Blocks即可。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>系统学习</category>
+        <category>matlab</category>
+      </categories>
+      <tags>
+        <tag>建模知识</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>安全用电</title>
     <url>/2023/07/19/%E5%AE%89%E5%85%A8%E7%94%A8%E7%94%B5/</url>
     <content><![CDATA[<h2 id="安全用电的重要性"><a href="#安全用电的重要性" class="headerlink" title="安全用电的重要性"></a>安全用电的重要性</h2><p>全世界每年死于电气事故的约占总和的百分之25；电气火灾约占火灾事故的总数的百分之14，从触电死亡事故分析：移动电具方面的触电死亡约占百分之51 ；违反安全操作规程，不懂安全操作而死亡的占百分之24.5 ；由于设备不良、检修不及时而造成触电死亡的占百分之24.5</p>
@@ -1525,162 +1681,6 @@ title(&#39;Bins = 50&#39;);
       </categories>
       <tags>
         <tag>安全知识</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>土木老哥和网文小白</title>
-    <url>/2024/08/14/%E5%9C%9F%E6%9C%A8%E8%80%81%E5%93%A5%E5%92%8C%E7%BD%91%E6%96%87%E5%B0%8F%E7%99%BD/</url>
-    <content><![CDATA[<h1 id="青春的告别和梦想的延续"><a href="#青春的告别和梦想的延续" class="headerlink" title="青春的告别和梦想的延续"></a>青春的告别和梦想的延续</h1><blockquote>
-<p>快乐的时光总是那么短暂,别说九十分钟的两集特别节目了,就连至今为止八十集的爱情公寓,也没能满足大家对快乐和美好的渴望，再多的花絮、幕后、彩蛋、回顾，也抵不过再来一季的幸福，青春没有极限我们的故事没有终点，爱情公寓第四季虽然暂告一段落，但请永远记住，那个会传来欢笑和尖叫的小房子，就在你的面前，最好的朋友就在身边，而最爱的人，就住在对面。某年某月，某时某地，仔细留意花瓣飘来的方向吧！没错那个地方叫做，爱情公寓。</p>
-</blockquote>
-<p>当这句话被lisa说完的时候，陪伴我整个青春的《爱情公寓》结束了，那一瞬间我突然觉得自己长大了，青春似乎远去了。既悲伤，也感慨。当大家离开呢个小屋子的时候，我明白自己也该勇敢起身追求自己的梦想和幸福了！</p>
-<p>不愿长大的我是幼稚的，爱情公寓里的每个人都在积极自信的追求爱情和梦想，为什么我还不愿意努力而拼搏了？不要苦大仇深，也不要压抑自己。</p>
-<p>请相信，摆脱偏见勇敢做自己，只要心中充满欢笑，世界就依旧灿烂美好。那个爱情公寓的小屋子，其实一直住在你心里。</p>
-<p>愿我们心中都充满欢笑，加油！</p>
-<h1 id="土木老哥"><a href="#土木老哥" class="headerlink" title="土木老哥"></a>土木老哥</h1><blockquote>
-<p>成功不在于挣多少钱，而在于用自己喜欢的方式过完一生。</p>
-</blockquote>
-<p>高考时，家人亲戚都劝我学医，我选了土木工程；</p>
-<p>考研时，一起备考的哥们极力劝我考北大人大央财金融经济，我还是选择了结构工程；</p>
-<p>毕业时，有十多个地产管培生的offer，我选择了设计院；进了国考复试，没去。</p>
-<p>八年前，曾有大佬想带我转行投行私募，我当时画图正热火朝天一腔热血，果断谢绝；</p>
-<p>…</p>
-<p>然而，我不后悔，因为我实现了儿时的梦想——小时候喜欢用土砖、木板盖房子，大学读了土木工程；08年看到夏奥会鸟巢、水立方心潮澎湃，10年之后在心目中偶像大师的指导下参与了冬奥会的场馆设计工作，可以说得上夙愿得偿、了无遗憾。</p>
-<p>人到中年，从零开始，再次出发，不过是从头再来。我心依旧是少年。</p>
-<p>[1]：<a href="https://www.zhihu.com/question/511595149/answer/2614013006">https://www.zhihu.com/question/511595149/answer/2614013006</a></p>
-<h1 id="网文小白"><a href="#网文小白" class="headerlink" title="网文小白"></a>网文小白</h1><p>你们都不知道起点吧宝巨的故事吗？</p>
-<p>这大哥是真的励志。</p>
-<p>我每次不想码字颓废的时候，就看看这大哥的帖子给自己打鸡血。</p>
-<p>…………</p>
-<p>宝巨14年在<a href="https://www.zhihu.com/search?q=%E8%B5%B7%E7%82%B9%E5%90%A7&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">起点吧</a>开贴，记录自己的网文生涯。</p>
-<p>开始，这货写了二十多个开头，然后都没签约。</p>
-<p>后来好不容易签约了一本，但是只拿了几个蚊子腿的小推荐，三十万字上架。</p>
-<p>当时666个收藏，高订3，均订2.7……</p>
-<p>这个数据真的扑街到姥姥家了。</p>
-<p>不过宝巨真的是个超级有毅力的人，平均每天能写一万五千字，从不断更。</p>
-<p>这本书一百万字完本。当时4600收藏，均订17.8</p>
-<p>宝巨当时每个月大概能拿全勤1000块，外加几十块的稿费钱。</p>
-<p>然鹅，虽说完本必神，百万必神，但是宝巨的网文路依旧坎坷。</p>
-<p>连着写了多本新书开头，全都被毙掉了。</p>
-<p>后来磨了好久才终于又有一本签约了。</p>
-<p>这本书成绩明显好于上一本，还上了新书榜。</p>
-<p>而且，还拿了几个不错的推荐。</p>
-<p>然后宝巨就感慨的讲了一个故事</p>
-<p><img src="https://pica.zhimg.com/80/v2-f73ba1c67d9d826381b3d0a6e2c6d4a8_1440w.webp?source=1def8aca" alt="img"></p>
-<p>这故事流传很广了，我都快听烂了，但是听宝巨讲这个故事，格外能打动人心。</p>
-<p>这期间，由于新书期没稿费，宝巨生活苦难，然后热心读者给了寄了两条烟……</p>
-<p>真的是惨到家……</p>
-<p>然后新书上架后，收藏2200，均订只有13.</p>
-<p>虽然比上一本强多了，但是显然也很烂。</p>
-<p>这期间，宝巨为了养活自己，于是开始写了一本千字8的买断文糊口。</p>
-<p>每天两本书加起来要写两万字。</p>
-<p>不过付出总有回报，在巨大的更新量下，他的月收入突破了3000.</p>
-<p>最终，这本书以大概50均订完本收尾。</p>
-<p>然后又开新书。结果新书成绩更烂。</p>
-<p>他找了几个大神指点。</p>
-<p>虽然颇有收益，但最终决定切文太监。</p>
-<p>接着，他重新的开头一个又一个的被毙掉。</p>
-<p>甚至怀疑起点编辑集体把他拉黑了。</p>
-<p>看得出来，这段期间，宝巨备受打击。</p>
-<p>不过，让他感动的是，一个刚结婚的读者，雪中送炭，专门给了两千块救济他。</p>
-<p>铁头娃是不能怂的，于是，宝巨继续莽！</p>
-<p>新书从分强一路上了三江推荐，</p>
-<p>上架一万二收藏，首订一百八，均订一百多。</p>
-<p>于是宝巨开始爆更。每天超过一万五千字更新。</p>
-<p>这一次，他的努力终于获得了些许回报。</p>
-<p>均订开始持续走高，完本时订阅到了800.</p>
-<p>月稿费最多拿到六千。</p>
-<p>然后，由于题材比较合适，卖掉了两个版权</p>
-<p>（说句额外的话，版权收入比订阅高多了，所以他的生活应该有所改善。）</p>
-<p>然后，下一本新书，又是一路推荐到<a href="https://www.zhihu.com/search?q=%E4%B8%89%E6%B1%9F&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">三江</a>。</p>
-<p>上架收藏两万，首订900。</p>
-<p>比上一本书成绩又强了一大截。</p>
-<p>当月稿费大概到了七千多。</p>
-<p>后来一路飙升，涨到了一万七。</p>
-<p>然后<a href="https://www.zhihu.com/search?q=%E5%AE%9D%E5%B7%A8&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">宝巨</a>买了人生中的第一辆车。</p>
-<p>嗯，这大概是宝巨入行的第三年。</p>
-<p>到了18年，宝巨的座驾换成了<a href="https://www.zhihu.com/search?q=%E5%AE%9D%E9%A9%AC%E5%B0%8F%E8%B7%91&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">宝马小跑</a>。</p>
-<p>他感觉到了自己的瓶颈，于是转而出走起点，转战<a href="https://www.zhihu.com/search?q=%E9%BB%91%E5%B2%A9&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">黑岩</a>、飞卢和掌阅。</p>
-<p>在飞卢曾经写过到天榜第一。</p>
-<p>磨铁销售榜单前十。</p>
-<p>掌阅前三十。</p>
-<p>当月所有书的稿费加起来，首次突破十万块！</p>
-<p>八个月后，宝巨重新杀回起点。</p>
-<p>新书首订七千，完本时均订一万三。</p>
-<p>写了俩月，挣了二十来万。</p>
-<p>写到八十万的时候，果断决定完本。</p>
-<p>按照他的说法是：</p>
-<p><img src="https://picx.zhimg.com/80/v2-0db1027fde404837eecfc0250087ab40_1440w.webp?source=1def8aca" alt="img"></p>
-<p>这一点我真的很佩服，我要是能写出一个月十万块的书，我能写到起点倒闭……</p>
-<p>…………</p>
-<p>他最新的一次回复，是在今年六月底。</p>
-<p>他的宝马已经卖了，换了一辆<a href="https://www.zhihu.com/search?q=%E4%BF%9D%E6%97%B6%E6%8D%B7%E8%B7%91%E8%BD%A6&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2031243435%7D">保时捷跑车</a>……</p>
-<p>…………</p>
-<p>怎么说呢，像土豆这种第一本书拿下起点新人王，第二本书火遍全网的人，根本不适合做新人的榜样。</p>
-<p>因为没法学习……</p>
-<p>但宝巨的故事，才是真的能激励每一个普通的写手。</p>
-<p>他真的一步一个脚印的走过来的。</p>
-<p>每一步都缓慢而坚定。</p>
-<p>从第一本书首订3，写到第二本17，再到第三本100，再到第四本900……一直到现在首订七千！</p>
-<p>历经无数挫折，依旧百折不挠！</p>
-<p>最后的最后，奉上一句网文圈最响亮的话，与诸君共勉：</p>
-<p><strong>最穷不过啃方便面，手不断总会出头！</strong></p>
-<p>[2]：<a href="https://www.zhihu.com/question/46838130/answer/2031243435">https://www.zhihu.com/question/46838130/answer/2031243435</a></p>
-<h1 id="纽约比加州时间早3个小时"><a href="#纽约比加州时间早3个小时" class="headerlink" title="纽约比加州时间早3个小时"></a>纽约比加州时间早3个小时</h1><blockquote>
-<p>每个人都有自己的青春和梦想，按照自己的节奏走过一生吧！</p>
-</blockquote>
-<p><strong>New York is 3 hours ahead of California,</strong></p>
-<p>纽约时间比加州时间早三个小时，</p>
-<p><strong>but it does not make California slow.</strong></p>
-<p>但加州时间并没有变慢。</p>
-<p><strong>Someone graduated at the age of 22,</strong></p>
-<p>有人22岁就毕业了，</p>
-<p><strong>but waited 5 years before securing a good job!</strong></p>
-<p>但等了五年才找到好的工作！</p>
-<p><strong>Someone became a CEO at 25,</strong></p>
-<p>有人25岁就当上CEO，</p>
-<p><strong>and died at 50.</strong></p>
-<p>却在50岁去世。</p>
-<p><strong>While another became a CEO at 50,</strong></p>
-<p>也有人迟到50岁才当上CEO，</p>
-<p><strong>and lived to 90 years.</strong></p>
-<p>然后活到90岁。</p>
-<p><strong>Someone is still single,</strong></p>
-<p>有人依然单身，</p>
-<p><strong>while someone else got married.</strong></p>
-<p>同时也有人已婚。</p>
-<p><strong>Obama retires at 55,</strong></p>
-<p>奥巴马55岁就退休，</p>
-<p><strong>but Trump starts at 70.</strong></p>
-<p>川普70岁才开始当总统。</p>
-<p><strong>Absolutely everyone in this world works based on their Time Zone.</strong></p>
-<p>世上每个人本来就有自己的发展时区。</p>
-<p><strong>People around you might seem to go ahead of you,</strong></p>
-<p>身边有些人看似走在你前面，</p>
-<p><strong>some might seem to be behind you.</strong></p>
-<p>也有人看似走在你后面。</p>
-<p><strong>But everyone is running their own RACE, in their own TIME.</strong></p>
-<p>但其实每个人在自己的时区有自己的步程。</p>
-<p><strong>Don’t envy them or mock them.</strong></p>
-<p>不用嫉妒或嘲笑他们。</p>
-<p><strong>They are in their TIME ZONE, and you are in yours!</strong></p>
-<p>他们都在自己的时区里，你也是！</p>
-<p><strong>Life is about waiting for the right moment to act.</strong></p>
-<p>生命就是等待正确的行动时机。</p>
-<p><strong>So, RELAX.</strong></p>
-<p>所以，放轻松。</p>
-<p><strong>You’re not LATE.</strong></p>
-<p>你没有落后。</p>
-<p><strong>You’re not EARLY.</strong></p>
-<p>你没有领先。</p>
-<p><strong>You are very much ON TIME, and in your TIME ZONE Destiny set up for you.</strong></p>
-<p>在命运为你安排的属于自己的时区里，一切都准时。</p>
-]]></content>
-      <categories>
-        <category>励志名人堂</category>
-      </categories>
-      <tags>
-        <tag>励志故事</tag>
       </tags>
   </entry>
   <entry>
