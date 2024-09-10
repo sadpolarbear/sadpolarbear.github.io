@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>腾讯视频</title>
+    <link rel="stylesheet" href="Tencent.css">
+
+    <style>
+        /* 字体图标引用的css --在icomoon.zip中的style.css中*/
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?rt8wxy');
+            src: url('fonts/icomoon.eot?rt8wxy#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?rt8wxy') format('truetype'),
+                url('fonts/icomoon.woff?rt8wxy') format('woff'),
+                url('fonts/icomoon.svg?rt8wxy#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+
+        div[class^=icon] {
+            float: left;
+            width: 97px;
+        }
+
+        div[class^=icon] span {
+            font-family: 'icomoon';
+            font-size: 47px;
+
+            display: inline-block;
+            margin-top: 15px;
+            margin-bottom: 30px;
+            margin-left: 28px;
+        }
+
+        div[class^=icon] span a {
+            color: #666666;
+        }
+
+        div[class^=icon] a:hover,
+        div[class^=icon] p:hover {
+            color: #ff5c38;
+        }
+
+        div[class^=icon] p {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+
+
+
+<body>
+    <div class="ren">
+        <!-- 头部 -->
+        <header>
+            <div class="out">
+               
+                <!-- 2、aside部分 -->
+                <div class="header-right_aside">
+                    <div class="aside-up">
+                        <img src="images/header/图标/看点1.png" alt="">
+                        <h2>大家在看</h2>
+                    </div>
+                    <div class="aside-down">
+                        <div class="down">
+                            <img src="images/header/图标/热搜榜 (1).png" alt="">
+                            <h2>重磅推荐</h2>
+                        </div>
+                        <ul>
+                            <li><a href="https://v.qq.com/x/cover/mzc002003h7vka8.html" target="_blank">奔跑吧</a></li>
+                            <li><a href="https://v.qq.com/x/cover/mzc00200y4wycre.html" target="_blank">千古玦尘首播</a></li>
+                            <li><a href="https://v.qq.com/x/cover/mzc0020029wfxgg.html" target="_blank">心动的信号</a></li>
+                            <li class="my">
+                                <a href="https://v.qq.com/x/cover/mzc00200bcryyw5.html" target="_blank">直击上影</a>
+                            </li>
+                            <li><a href="https://v.qq.com/x/cover/qjr4mfe8xf85j0j.html" target="_blank">双世宠妃3</a></li>
+                            <li><a href="https://v.qq.com/x/cover/gehpfier9upkqz5.html" target="_blank">眷思量</a></li>
+                            <li><a href="https://v.qq.com/x/page/f3243xebb7k.html" target="_blank">光辉历程</a></li>
+                            <li><a href="https://v.qq.com/x/cover/mzc0020077b1ff5.html" target="_blank">牛头不对马嘴</a></li>
+                            <li><a href="#">年卡128元</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 3、轮播图部分 */-->
+                <div class="lunbotu">
+                    <div class="donghua">
+                        <img src="https://picx.zhimg.com/80/v2-3d709897468725d33eb64a3d527a5353_1440w.webp?source=1def8aca" alt="" class="tu">
+                        <img src="images/header/0 (6).png" alt="" class="tu">
+                        <img src="images/header/0 (5).png" alt="" class="tu">
+                        <img src="images/header/0 (3).png" alt="" class="tu">
+                        <img src="images/header/0 (1).png" alt="" class="tu">
+                        <img src="images/header/0 (4).png" alt="" class="tu">
+                        <img src="images/header/0 (10).png" alt="" class="tu">
+                        <img src="images/header/0 (7).png" alt="" class="tu">
+                        <img src="images/header/0 (8).png" alt="" class="tu">
+                        <img src="images/header/0 (2).png" alt="" class="tu">
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        
+
+
+
+
+
+
+
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>原生JS实现腾讯视频轮播图</title>
+    <link href="css/index.css" rel="stylesheet" />
+    <script src="js/move.js"></script>
+    <script>
+        window.onload = function () {
+            //获取最外层容器
+            var oDiv = document.getElementById('box');
+            //获取每一个大图选项
+            var aPicLi = document.getElementById('pic_list').getElementsByTagName('li');
+            //获取每一个文字选项
+            var aTxtLi = document.getElementById('text_list').getElementsByTagName('li');
+            //获取小图容器
+            var oIcoUl = document.getElementById('ico_list').getElementsByTagName('ul')[0];
+            //获取每一个小图选项
+            var aIcoLi = document.getElementById('ico_list').getElementsByTagName('li');
+            //上一个图片按钮
+            var oBtnPrev = document.getElementById('btn_prev');
+            //下一个图片按钮
+            var oBtnNext = document.getElementById('btn_next');
+
+            //当前UL移动的位置(从第8张开始)
+            var iNowUlLeft = 0;
+            //当前高亮图标位置（不断增加)
+            var iNow = 0;
+
+
+            //点击查看上一张图片
+            oBtnPrev.onclick = function () {
+                //左边至少隐藏一张时
+                if (iNowUlLeft > 0) {
+                    // 移动次数计数器减1
+                    iNowUlLeft--;
+
+                    fixUlLeft();
+                }
+            };
+            //移动方法
+            function fixUlLeft() {
+                //如果当前为第一张图片(iNowUlLeft值为0),不显示上一个图标，否则显示
+                oBtnPrev.className = iNowUlLeft == 0 ? 'btn' : 'btn showBtn';
+
+                //如果当前为最后一张图片(iNowUlLeft值为aIcoLi.length),不显示下一个图标，否则显示
+                oBtnNext.className = iNowUlLeft == (aIcoLi.length - 7) ? 'btn' : 'btn showBtn';
+
+                //将小图容器缓冲运动左移单个LI的宽度乘以iNowLeft(移动次数计数器)
+                miaovStartMove(oIcoUl, { left: -aIcoLi[0].offsetWidth * iNowUlLeft }, MIAOV_MOVE_TYPE.BUFFER);
+            };
+            //点击查看下一张图片
+            oBtnNext.onclick = function () {
+                //小于当前右边隐藏的照片数量时
+                if (iNowUlLeft < aIcoLi.length - 7) {
+                    // 移动次数计数器加1
+                    iNowUlLeft++;
+
+                    fixUlLeft();
+                }
+            };
+
+            //为每一个小图标添加鼠标点击事件
+            for (var i = 0; i < aIcoLi.length; i++) {
+                //为每个小图标添加index属性
+                aIcoLi[i].index = i;
+                //为每一个小图标添加点击事件
+                aIcoLi[i].onclick = function () {
+                    //如果点击的是当前图片，返回
+                    if (iNow == this.index) {
+                        return;
+                    }
+                    //更新当前小图标的index
+                    iNow = this.index;
+
+                    tab();
+                };
+            };
+            function tab() {
+
+                for (i = 0; i < aIcoLi.length; i++) {
+
+                    //清空所有小图标样式
+                    aIcoLi[i].className = '';
+
+                    //将所有文字标题设为不显示
+                    aTxtLi[i].getElementsByTagName('h2')[0].className = '';
+
+                    //将所有大图样式都改为透明的
+                    aPicLi[i].style.filter = 'alpha(opacity:0)';
+                    aPicLi[i].style.opacity = 0;
+
+                    //每次点击时关闭上一次大图正在执行的定时器
+                    miaovStopMove(aPicLi[i]);
+
+                }
+                //为当前点击的小图添加样式
+                aIcoLi[iNow].className = 'active';
+                //显示当前小图所对应的文字
+                aTxtLi[iNow].getElementsByTagName('h2')[0].className = 'show';
+                //让大图以缓冲运动的方式逐渐显示
+                miaovStartMove(aPicLi[iNow], { opacity: 100 }, MIAOV_MOVE_TYPE.BUFFER);
+            };
+            //自动播放
+            function autoPlay() {
+
+                //当前高亮图标位置加1
+                iNow++;
+                //如果当前高亮图标位置为最后一个时
+                if (iNow >= aIcoLi.length) {
+                    //变为第一张
+                    iNow = 0;
+                };
+                if (iNow < iNowUlLeft) {
+
+                    iNowUlLeft = iNow;
+
+                    //当iNow轮播到7时(右边隐藏第1张位置),此时iNowUlLeft为0,故iNow=iNowUlLeft+7
+                } else if (iNow >= iNowUlLeft + 7) {
+                    //计算出左移图片的数量(iNow从0开始，故只减6)
+                    iNowUlLeft = iNow - 6;
+
+                };
+                fixUlLeft();
+                tab();
+            };
+
+            //自动轮播
+            var timer = setInterval(autoPlay, 3000);
+
+            //鼠标移入时，清空定时器
+            oDiv.onmouseover = function () {
+
+                clearInterval(timer);
+
+            };
+
+            //鼠标移出时，执行定时器
+            oDiv.onmouseout = function () {
+                //定时器继续执行
+                timer = setInterval(autoPlay, 3000);
+
+            };
+        };
+    </script>
+</head>
+
+<body>
+    <div id="box">
+        <!-- 大图区域 -->
+        <ul id="pic_list">
+            <li style="z-index:2;opacity:1;fliter:alpha(opacity=100);">
+                <a><img src="https://picx.zhimg.com/80/v2-3d709897468725d33eb64a3d527a5353_1440w.webp?source=1def8aca" /></a>
+            </li>
+            <li>
+                <a><img src="images/16.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/17.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/18.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/19.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/20.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/21.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/22.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/23.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/24.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/25.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/26.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/27.jpg" /></a>
+            </li>
+            <li>
+                <a><img src="images/28.jpg" /></a>
+            </li>
+        </ul>
+        <div class="mark"></div>
+        <!-- 剧情简介 -->
+        <ul id="text_list">
+            <li>
+                <h2 class="show">
+                    <a>《...</a>
+                </h2>
+            </li>
+
+            <li>
+                <h2>
+                    <a>《.</a>
+                </h2>
+            </li>
+
+            <li>
+                <h2>
+                    <a>《.</a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a>《..</a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a>《！</a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a>《</a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a></a>
+                </h2>
+            </li>
+
+            <li>
+                <h2>
+                    <a>《</a>
+                </h2>
+            </li>
+
+            <li>
+                <h2>
+                    <a>《</a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a></a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a></a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a>《</a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a></a>
+                </h2>
+            </li>
+            <li>
+                <h2>
+                    <a></a>
+                </h2>
+            </li>
+        </ul>
+        <!-- 缩略图区域 -->
+        <div id="ico_list">
+            <ul>
+                <li class="active">
+                    <a><img src="images/1.jpg" /></a>
+                </li>
+                <li><a><img src="images/2.jpg" /></a></li>
+                <li><a><img src="images/3.jpg" /></a></li>
+                <li><a><img src="images/4.jpg" /></a></li>
+                <li><a><img src="images/5.jpg" /></a></li>
+                <li><a><img src="images/6.jpg" /></a></li>
+                <li><a><img src="images/7.jpg" /></a></li>
+                <li><a><img src="images/8.jpg" /></a></li>
+                <li><a><img src="images/9.jpg" /></a></li>
+                <li><a><img src="images/10.jpg" /></a></li>
+                <li><a><img src="images/11.jpg" /></a></li>
+                <li><a><img src="images/12.jpg" /></a></li>
+                <li><a><img src="images/13.jpg" /></a></li>
+                <li><a><img src="images/14.jpg" /></a></li>
+            </ul>
+        </div>
+        <a href="#" id="btn_prev" class="btn"></a>
+        <a href="#" id="btn_next" class="btn showBtn"></a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </article>
+        <!-- 尾部 -->
+        <footer>
+            <div class="line">
+                <hr size="3px" color="#ff5c38">
+            </div>
+            <div class="footer">
+                <!-- 1、links部分 -->
+                <div class="links1">
+                    <img src="" alt="">
+                </div>
+                <div class="links2">
+                    <dl>
+                        <dt>特色推荐</dt>
+                        <dd><a href="#">自制推荐</a></dd>
+                        <dd><a href="#">杀毒软件</a></dd>
+                    </dl>
+                </div>
+                <div class="links3">
+                    <h4>软件下载</h4>
+                    <div class="icon1">
+                        <span><a href="https://v.qq.com/biu/download#iPhone" target="_blank"></a></span>
+                        <p>手机版</p>
+                    </div>
+                    <div class="icon2">
+                        <span><a href="https://v.qq.com/biu/download#Windows" target="_blank"></a></span>
+                        <p>Windows版</p>
+                    </div>
+                    <div class="icon3">
+                        <span><a href="https://v.qq.com/biu/download#Mac" target="_blank"></a></span>
+                        <P>Mac版</P>
+                    </div>
+                    <div class="icon4">
+                        <span><a href="https://v.qq.com/biu/download#Pad" target="_blank"></a></span>
+                        <p>iPad版</p>
+                    </div>
+                    <div class="icon5">
+                        <span><a href="https://v.qq.com/biu/download#TV" target="_blank"></a></span>
+                        <p>TV版</p>
+                    </div>
+                </div>
+                <div class="links4">
+                    <dl>
+                        <dt>服务</dt>
+                        <dd><a href="#">客服</a></dd>
+                        <dd><a href="#">反馈</a></dd>
+                        <dd><a href="#">侵权投诉</a></dd>
+                        <dd><a href="#">免广告合作</a></dd>
+                        <dd><a href="#">vip采购</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <!-- 2、声明部分部分 -->
+           
+    </div>
+</body>
+
+</html>
