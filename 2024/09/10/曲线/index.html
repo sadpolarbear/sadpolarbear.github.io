@@ -1,0 +1,256 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>曲线 | 爱哭的北极熊</title><meta name="author" content="友人A"><meta name="copyright" content="友人A"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="考研曲线相信大家在做习题集时常常会碰到某些曲线，像什么摆线、星(心)型线等之类的曲线。若不熟悉这些图形，到考试的时候往往某些题会无从下手，也不是说无从下手，有些曲线可以通过求导、求极值可大致分析出是什么图形。如果在考场上，这样做显然会浪费时间。比如2018年数二第17题，那道二重积分的区域D就是摆线与x轴围成的。 为了帮助大家应对这种情况，本人将总结出较为常用的曲线以应对考研、期末考试、自学等遇到">
+<meta property="og:type" content="article">
+<meta property="og:title" content="曲线">
+<meta property="og:url" content="https://sadpolarbear.github.io/2024/09/10/%E6%9B%B2%E7%BA%BF/index.html">
+<meta property="og:site_name" content="爱哭的北极熊">
+<meta property="og:description" content="考研曲线相信大家在做习题集时常常会碰到某些曲线，像什么摆线、星(心)型线等之类的曲线。若不熟悉这些图形，到考试的时候往往某些题会无从下手，也不是说无从下手，有些曲线可以通过求导、求极值可大致分析出是什么图形。如果在考场上，这样做显然会浪费时间。比如2018年数二第17题，那道二重积分的区域D就是摆线与x轴围成的。 为了帮助大家应对这种情况，本人将总结出较为常用的曲线以应对考研、期末考试、自学等遇到">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://sadpolarbear.github.io/images/3.webp">
+<meta property="article:published_time" content="2024-09-10T10:03:51.000Z">
+<meta property="article:modified_time" content="2024-09-10T10:05:22.397Z">
+<meta property="article:author" content="友人A">
+<meta property="article:tag" content="数学知识">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sadpolarbear.github.io/images/3.webp"><link rel="shortcut icon" href="/images/2.webp"><link rel="canonical" href="https://sadpolarbear.github.io/2024/09/10/%E6%9B%B2%E7%BA%BF/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'mediumZoom',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '曲线',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-09-10 18:05:22'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/readPercent.css"><link rel="stylesheet" href="/css/ursine-umbra-cyrillic.css"><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/menu_ceter.css" /><link rel="stylesheet" href="/css/books.css" /><link rel="stylesheet" href="/css/font.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+<style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
+  white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/xlenco/JS-X@main/pace.js/pace.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/3.webp" onerror="onerror=null;src='/images/4.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 安乐窝</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 墨简</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-moon"></i><span> 月色真美</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/magic/"><i class="fa-fw fa fa-magic"></i><span> 倒计时</span></a></li><li><a class="site-page child" href="/heike/"><i class="fa-fw fa fa-deaf"></i><span> 黑客帝国</span></a></li><li><a class="site-page child" href="/entertainment/"><i class="fa-fw fa fa-gamepad"></i><span> 游乐园</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-gift"></i><span> 风也温柔</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fa fa-camera-retro"></i><span> 影集</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fa fa-book"></i><span> 慢书屋</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-envelope"></i><span> 邮局</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 从这开始</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="爱哭的北极熊"><span class="site-name">爱哭的北极熊</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i></a></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 安乐窝</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 墨简</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fa fa-archive"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fa fa-folder-open"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-moon"></i><span> 月色真美</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/magic/"><i class="fa-fw fa fa-magic"></i><span> 倒计时</span></a></li><li><a class="site-page child" href="/heike/"><i class="fa-fw fa fa-deaf"></i><span> 黑客帝国</span></a></li><li><a class="site-page child" href="/entertainment/"><i class="fa-fw fa fa-gamepad"></i><span> 游乐园</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-gift"></i><span> 风也温柔</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fa fa-camera-retro"></i><span> 影集</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fa fa-book"></i><span> 慢书屋</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 影视</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-envelope"></i><span> 邮局</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 从这开始</span></a></div></div><div id="nav-right"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">曲线</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-09-10T10:03:51.000Z" title="发表于 2024-09-10 18:03:51">2024-09-10</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-09-10T10:05:22.397Z" title="更新于 2024-09-10 18:05:22">2024-09-10</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/">系统学习</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/%E6%95%B0%E5%AD%A6/">数学</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="考研曲线"><a href="#考研曲线" class="headerlink" title="考研曲线"></a>考研曲线</h1><p>相信大家在做习题集时常常会碰到某些曲线，像什么摆线、星(心)型线等之类的曲线。若不熟悉这些图形，到考试的时候往往某些题会无从下手，也不是说无从下手，有些曲线可以通过<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?q=%E6%B1%82%E5%AF%BC&zhida_source=entity&is_preview=1">求导</a>、求极值可大致分析出是什么图形。如果在考场上，这样做显然会浪费时间。比如2018年数二第17题，那道<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?q=%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86&zhida_source=entity&is_preview=1">二重积分</a>的区域D就是摆线与x轴围成的。</p>
+<p>为了帮助大家应对这种情况，本人将总结出较为常用的曲线以应对考研、期末考试、自学等遇到的情况。</p>
+<p>教材以<strong>《高等数学》——同济七(八)版</strong>为主，总结对象是该教材<strong>附录Ⅲ</strong>中的部分曲线，这部分曲线会常出现在真题以及市面上各种习题册中。对于某些不常用或用来出题概率较低的曲线，暂时不做总结，若以后出现了，则再进行一定的补充。</p>
+<p>本系列篇幅会尽量总结曲线的表达式、图像、弧长、面积、<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?q=%E6%97%8B%E8%BD%AC%E4%BD%93%E7%A7%AF&zhida_source=entity&is_preview=1">旋转体积</a>、旋转表面积等之类的常用结论，当然不是全部。对于该曲线不常用的结论，就不再过多阐述。</p>
+<p><strong>由于涉及到求曲线面积、弧长等参数，本人”尽量”利用曲线的各种形式去进行计算，甚至有的地方可能会涉及到多种计算方法，有的方法好、有的方法较为繁琐，望读者选取最合适的方法对此进行吸收。</strong></p>
+<p>如果对你有帮助，请不忘收藏、点赞或转发给身边需要帮助的同学。</p>
+<blockquote>
+<p>内容概要</p>
+</blockquote>
+<p><strong>★<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?q=%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%BF%83%E5%BD%A2%E7%BA%BF&zhida_source=entity&is_preview=1">笛卡尔心形线</a></strong></p>
+<p><strong>★星形线</strong></p>
+<p><strong>★摆线</strong></p>
+<p><strong>★伯努利双纽线</strong></p>
+<p><strong>★<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?q=%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%8F%B6%E5%BD%A2%E7%BA%BF&zhida_source=entity&is_preview=1">笛卡尔叶形线</a></strong></p>
+<p>★<strong>阿基米德螺线</strong></p>
+<p>★**<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?q=%E7%8E%AB%E7%91%B0%E7%BA%BF&zhida_source=entity&is_preview=1">玫瑰线</a>**</p>
+<p>在总结曲线之前，大家要知道定积分在直角或<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?q=%E6%9E%81%E5%9D%90%E6%A0%87&zhida_source=entity&is_preview=1">极坐标</a>的几何应用中计算面积、弧长、旋转体积、<a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?q=%E6%97%8B%E8%BD%AC%E8%A1%A8%E9%9D%A2%E7%A7%AF&zhida_source=entity&is_preview=1">旋转表面积</a>等公式与三种坐标的变换。这部分内容在各大参考书上都有详细讲解，这里就不再一一列出。</p>
+<h2 id="和差化积"><a href="#和差化积" class="headerlink" title="和差化积"></a>和差化积</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081559486.png"></p>
+<h2 id="笛卡尔心形线-Cardioid"><a href="#笛卡尔心形线-Cardioid" class="headerlink" title="笛卡尔心形线(Cardioid)"></a><strong>笛卡尔心形线(Cardioid)</strong></h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081549901.png" alt="1"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081550196.png" alt="2"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081551362.png" alt="3"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081544227.png" alt="4"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081552582.png" alt="5"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081555292.png" alt="6"></p>
+<h2 id="星型线"><a href="#星型线" class="headerlink" title="星型线"></a>星型线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101737956.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738435.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738779.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738458.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738131.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101739032.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101739219.png"></p>
+<h2 id="摆线"><a href="#摆线" class="headerlink" title="摆线"></a>摆线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101740641.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101741395.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101741558.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101741457.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101742690.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101742322.png"></p>
+<h2 id="伯努利双扭线"><a href="#伯努利双扭线" class="headerlink" title="伯努利双扭线"></a>伯努利双扭线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101743743.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101743775.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101744793.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745574.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745024.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745308.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745057.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745470.png"></p>
+<h2 id="笛卡尔叶形线"><a href="#笛卡尔叶形线" class="headerlink" title="笛卡尔叶形线"></a>笛卡尔叶形线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101747130.png"></p>
+<h2 id="阿基米德螺线"><a href="#阿基米德螺线" class="headerlink" title="阿基米德螺线"></a>阿基米德螺线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101747767.png"></p>
+<h2 id="玫瑰线"><a href="#玫瑰线" class="headerlink" title="玫瑰线"></a>玫瑰线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101748028.png"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://sadpolarbear.github.io">友人A</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://sadpolarbear.github.io/2024/09/10/%E6%9B%B2%E7%BA%BF/">https://sadpolarbear.github.io/2024/09/10/曲线/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://sadpolarbear.github.io" target="_blank">爱哭的北极熊</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86/">数学知识</a></div><div class="post_share"><div class="social-share" data-image="/images/3.webp" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/09/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/" title="随便写写"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">随便写写</div></div></a></div><div class="next-post pull-right"><a href="/2024/08/14/%E8%AF%BA%E7%B1%B3/" title="诺米"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">诺米</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/3.webp" onerror="this.onerror=null;this.src='/images/4.gif'" alt="avatar"/></div><div class="author-info__name">友人A</div><div class="author-info__description">盐于律己、甜以待人</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/sadpolarbear"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/sadpolarbear" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:gayternqsdhv@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%80%83%E7%A0%94%E6%9B%B2%E7%BA%BF"><span class="toc-number">1.</span> <span class="toc-text">考研曲线</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%92%8C%E5%B7%AE%E5%8C%96%E7%A7%AF"><span class="toc-number">1.1.</span> <span class="toc-text">和差化积</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%BF%83%E5%BD%A2%E7%BA%BF-Cardioid"><span class="toc-number">1.2.</span> <span class="toc-text">笛卡尔心形线(Cardioid)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%98%9F%E5%9E%8B%E7%BA%BF"><span class="toc-number">1.3.</span> <span class="toc-text">星型线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%91%86%E7%BA%BF"><span class="toc-number">1.4.</span> <span class="toc-text">摆线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%8F%8C%E6%89%AD%E7%BA%BF"><span class="toc-number">1.5.</span> <span class="toc-text">伯努利双扭线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%8F%B6%E5%BD%A2%E7%BA%BF"><span class="toc-number">1.6.</span> <span class="toc-text">笛卡尔叶形线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7%E8%9E%BA%E7%BA%BF"><span class="toc-number">1.7.</span> <span class="toc-text">阿基米德螺线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%AB%E7%91%B0%E7%BA%BF"><span class="toc-number">1.8.</span> <span class="toc-text">玫瑰线</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2025 By 友人A</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://butterfly.js.org/">blog</a>!<br> 在和不在都一个样的话……那就永远在一起吧。</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat-btn" type="button" title="聊天"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"></div><script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script><script defer src="/js/light.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="false"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div><!-- hexo injector body_end start --><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '2s');
+    arr[i].setAttribute('data-wow-delay', '1s');
+    arr[i].setAttribute('data-wow-offset', '100');
+    arr[i].setAttribute('data-wow-iteration', '2');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>
