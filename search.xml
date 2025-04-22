@@ -151,6 +151,24 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2023/07/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>l have a dream</title>
     <url>/2025/04/15/l%20have%20a%20dream/</url>
     <content><![CDATA[<h1 id="I-Have-a-Dream"><a href="#I-Have-a-Dream" class="headerlink" title="I Have a Dream"></a>I Have a Dream</h1><p><img src="https://www.americanrhetoric.com/images/mlkihaveadreamcolorizedpubdom1.jpg"></p>
@@ -215,24 +233,6 @@
       <tags>
         <tag>历史的感动</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/07/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>markdown 知识总结</title>
@@ -527,28 +527,6 @@
       </categories>
       <tags>
         <tag>文档知识</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>simulink常见技巧</title>
-    <url>/2024/08/11/sumulink%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<ol>
-<li><p>找元件：在空白地方点左键一下，过两秒后会出现放大镜，然后点放大镜就可以直接输入找模块了。</p>
-</li>
-<li><p>顺时针：右键→Rotate&amp;Flip→Clockwise；逆时针：右键→Rotate&amp;Flip→Counterclockwise. </p>
-<p>​	快捷键ctrl+R</p>
-</li>
-<li><p>高版本Simulink仿真时找不到Synchronized 6-Pulse Generator的解决方法</p>
-<p>​		在命令行窗口中输入powerlib_extras 在弹出的页面中： powerlib_extras&#x2F;Control Blocks, powerlib_extras&#x2F;Discrete Control Blocks即可。</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>系统学习</category>
-        <category>matlab</category>
-      </categories>
-      <tags>
-        <tag>建模知识</tag>
       </tags>
   </entry>
   <entry>
@@ -1554,6 +1532,28 @@ title(&#39;Bins = 50&#39;);
       </tags>
   </entry>
   <entry>
+    <title>simulink常见技巧</title>
+    <url>/2024/08/11/sumulink%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<ol>
+<li><p>找元件：在空白地方点左键一下，过两秒后会出现放大镜，然后点放大镜就可以直接输入找模块了。</p>
+</li>
+<li><p>顺时针：右键→Rotate&amp;Flip→Clockwise；逆时针：右键→Rotate&amp;Flip→Counterclockwise. </p>
+<p>​	快捷键ctrl+R</p>
+</li>
+<li><p>高版本Simulink仿真时找不到Synchronized 6-Pulse Generator的解决方法</p>
+<p>​		在命令行窗口中输入powerlib_extras 在弹出的页面中： powerlib_extras&#x2F;Control Blocks, powerlib_extras&#x2F;Discrete Control Blocks即可。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>系统学习</category>
+        <category>matlab</category>
+      </categories>
+      <tags>
+        <tag>建模知识</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>土木老哥和网文小白</title>
     <url>/2024/08/14/%E5%9C%9F%E6%9C%A8%E8%80%81%E5%93%A5%E5%92%8C%E7%BD%91%E6%96%87%E5%B0%8F%E7%99%BD/</url>
     <content><![CDATA[<h1 id="青春的告别和梦想的延续"><a href="#青春的告别和梦想的延续" class="headerlink" title="青春的告别和梦想的延续"></a>青春的告别和梦想的延续</h1><blockquote>
@@ -1900,92 +1900,6 @@ title(&#39;Bins = 50&#39;);
       </tags>
   </entry>
   <entry>
-    <title>诺米</title>
-    <url>/2024/08/14/%E8%AF%BA%E7%B1%B3/</url>
-    <content><![CDATA[<h1 id="诺米，追梦的少年"><a href="#诺米，追梦的少年" class="headerlink" title="诺米，追梦的少年"></a>诺米，追梦的少年</h1><p>一切要从《中国新说唱2024》的海选说起，这个春天，无锡荟聚了400多名全国各地的rapper。诺米也收到邀请函，他用妈妈借的钱订机票，赴锡赶考。诺米报名了谢帝的评委选拔组别，却惨遭淘汰，而后，海选rapper圈子对谢帝组可能存在黑箱操作以及评审的权力关系表达抗议。</p>
-<p>有博主分析海选的流程规则，认为主办方召集了过多选手，在密集时间进行试唱，评委的注意力分配不合理，从早到晚评委累麻了，面对晚间上场的选手时已体能耗尽，可能对一些选手的基本信息都不了解。谢帝甚至都搞错了《阿普的思念》是唱给爷爷的。诺米重复着美式男孩的口头禅录视频，红着眼眶说“他说让我当个爱好，但这是我的梦想，我为什么要当个爱好”。</p>
-<p>诺米对曾经的偶像失望，于是创作了《谢天谢帝》表达不满。说唱圈的diss歌，一般都是脏话豪车美女票子来镇场面，而诺米的整首歌恰恰相反。这是首低成本MV，所有镜头在成都玉林七巷的街区公园拍摄，唯一的互动道具是老小区的公共健身器材，也成为整首歌的抽象爽点。</p>
-<h1 id="抽象的作品，具象的“网红”"><a href="#抽象的作品，具象的“网红”" class="headerlink" title="抽象的作品，具象的“网红”"></a>抽象的作品，具象的“网红”</h1><p>你以为诺米应该是搞笑的，但他却又超出意料的深刻。网友了解后发现，在海选被淘汰时谢帝提到的《阿普的思念》，是诺米写给爷爷的歌曲，歌词与情感远比自己想象的深刻；诺米不仅有《阿普的思念》，还有《孤独材料》，两首歌曲目前在QQ音乐飙升榜上分别占据着第四和第五的位置；在他短视频的主页中，《枯木逢春》这首歌的点赞已经近80万，被网友称赞“去的是伯克利”；还有为家乡凉山正名的歌词：“我们凉山人脏确实从小没有好的环境，那你是否也应该去对自己的所讲反省。”</p>
-<p>根据网络报道，诺米来自四川凉山州，妈妈在便利店当收银员。玩说唱之前，诺米做过厨师、骑三轮车卖水果，他还和父亲一起在工地当过架子工，并且因为意外失去了一节小拇指。因为家庭的条件不好，诺米参加新说唱的机票钱，还是妈妈找邻居借的。</p>
-<p>还有网友晒出诺米小时候帮家里耕地做农活、在学校读书时的照片，照片上的诺米一看就是特别朴实的孩子。还有很多网友晒出了之前偶遇他的照片和视频，这些网络曝光的素材里，诺米总是一个人戴着帽子、背着背包，耳朵里塞着有线耳机，边走边练习自己的rap，看上去特别孤独，这进一步加深了他在网友眼中的弱势形象。</p>
-<p>此外，还有网络文章提到诺米早期因为没有名气，做音乐又需要花钱，所以经常连酒店都住不起只能露宿街头，甚至因此被人打过。还有网友晒出聊天记录，显示自己邀请诺米住到自己的寝室，但被拒绝，诺米只是洗了个澡就离开。以及有粉丝给诺米发红包也被婉拒，他还叮嘱粉丝不要随便给人钱，以免被骗。</p>
-<p><img src="https://imagepphcloud.thepaper.cn/pph/image/299/366/762.jpg" alt="img"></p>
-<p>哪怕是在“成都迪士尼”爆火后，诺米也仅仅在4月5日发布视频呼吁前往打卡的网友们“周围住的都是老爷爷老奶奶，希望大家别扰民。”</p>
-<p>在“我要迪士尼”之前，他是自诩“美式男孩”的《新说唱》淘汰rapper，但如今他是尽管家境并不富裕但依旧追逐说唱梦的大凉山男孩。甚至他写给爷爷的歌《阿普的思念》，也被央视文旅、凉山文旅“翻牌”作为地方宣传片的配乐。</p>
-<p>一个努力生活又努力追梦，搞笑又悲情的形象跃然屏幕之上。</p>
-<p>网友们越深扒越感动，草根诺米的故事立刻传遍互联网的大街小巷，其中的反差感，让网友们笑着笑着就哭了！</p>
-<p>这些具体的生活细节，同频的人生经历。这不就正是大多数年轻人所经历的人生么？留守儿童、小镇青年、城市打工仔、流浪街头的草根文艺创作者，却一直没有放弃梦想。诺米在成名后演出现场的击拳视频，在抖音上成为运镜转场模板，象征着追梦少年的励志故事原型。诺米与彝族妞妞合唱团合作童声版《阿普的思念》，并准备把部分版税捐给留守儿童。</p>
-<p>普通人就是喜欢那个纯粹，热爱家乡，也爱追梦的少年！</p>
-<p>在诺米身上，你看到曾经的自己了吗？</p>
-]]></content>
-      <categories>
-        <category>励志名人堂</category>
-      </categories>
-      <tags>
-        <tag>励志故事</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>曲线</title>
-    <url>/2024/09/10/%E6%9B%B2%E7%BA%BF/</url>
-    <content><![CDATA[<h1 id="考研曲线"><a href="#考研曲线" class="headerlink" title="考研曲线"></a>考研曲线</h1><p>相信大家在做习题集时常常会碰到某些曲线，像什么摆线、星(心)型线等之类的曲线。若不熟悉这些图形，到考试的时候往往某些题会无从下手，也不是说无从下手，有些曲线可以通过<a href="https://zhida.zhihu.com/search?q=%E6%B1%82%E5%AF%BC&zhida_source=entity&is_preview=1">求导</a>、求极值可大致分析出是什么图形。如果在考场上，这样做显然会浪费时间。比如2018年数二第17题，那道<a href="https://zhida.zhihu.com/search?q=%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86&zhida_source=entity&is_preview=1">二重积分</a>的区域D就是摆线与x轴围成的。</p>
-<p>为了帮助大家应对这种情况，本人将总结出较为常用的曲线以应对考研、期末考试、自学等遇到的情况。</p>
-<p>教材以<strong>《高等数学》——同济七(八)版</strong>为主，总结对象是该教材<strong>附录Ⅲ</strong>中的部分曲线，这部分曲线会常出现在真题以及市面上各种习题册中。对于某些不常用或用来出题概率较低的曲线，暂时不做总结，若以后出现了，则再进行一定的补充。</p>
-<p>本系列篇幅会尽量总结曲线的表达式、图像、弧长、面积、<a href="https://zhida.zhihu.com/search?q=%E6%97%8B%E8%BD%AC%E4%BD%93%E7%A7%AF&zhida_source=entity&is_preview=1">旋转体积</a>、旋转表面积等之类的常用结论，当然不是全部。对于该曲线不常用的结论，就不再过多阐述。</p>
-<p><strong>由于涉及到求曲线面积、弧长等参数，本人”尽量”利用曲线的各种形式去进行计算，甚至有的地方可能会涉及到多种计算方法，有的方法好、有的方法较为繁琐，望读者选取最合适的方法对此进行吸收。</strong></p>
-<p>如果对你有帮助，请不忘收藏、点赞或转发给身边需要帮助的同学。</p>
-<blockquote>
-<p>内容概要</p>
-</blockquote>
-<p><strong>★<a href="https://zhida.zhihu.com/search?q=%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%BF%83%E5%BD%A2%E7%BA%BF&zhida_source=entity&is_preview=1">笛卡尔心形线</a></strong></p>
-<p><strong>★星形线</strong></p>
-<p><strong>★摆线</strong></p>
-<p><strong>★伯努利双纽线</strong></p>
-<p><strong>★<a href="https://zhida.zhihu.com/search?q=%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%8F%B6%E5%BD%A2%E7%BA%BF&zhida_source=entity&is_preview=1">笛卡尔叶形线</a></strong></p>
-<p>★<strong>阿基米德螺线</strong></p>
-<p>★**<a href="https://zhida.zhihu.com/search?q=%E7%8E%AB%E7%91%B0%E7%BA%BF&zhida_source=entity&is_preview=1">玫瑰线</a>**</p>
-<p>在总结曲线之前，大家要知道定积分在直角或<a href="https://zhida.zhihu.com/search?q=%E6%9E%81%E5%9D%90%E6%A0%87&zhida_source=entity&is_preview=1">极坐标</a>的几何应用中计算面积、弧长、旋转体积、<a href="https://zhida.zhihu.com/search?q=%E6%97%8B%E8%BD%AC%E8%A1%A8%E9%9D%A2%E7%A7%AF&zhida_source=entity&is_preview=1">旋转表面积</a>等公式与三种坐标的变换。这部分内容在各大参考书上都有详细讲解，这里就不再一一列出。</p>
-<h2 id="和差化积"><a href="#和差化积" class="headerlink" title="和差化积"></a>和差化积</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081559486.png"></p>
-<h2 id="笛卡尔心形线-Cardioid"><a href="#笛卡尔心形线-Cardioid" class="headerlink" title="笛卡尔心形线(Cardioid)"></a><strong>笛卡尔心形线(Cardioid)</strong></h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081549901.png" alt="1"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081550196.png" alt="2"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081551362.png" alt="3"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081544227.png" alt="4"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081552582.png" alt="5"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081555292.png" alt="6"></p>
-<h2 id="星型线"><a href="#星型线" class="headerlink" title="星型线"></a>星型线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101737956.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738435.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738779.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738458.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738131.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101739032.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101739219.png"></p>
-<h2 id="摆线"><a href="#摆线" class="headerlink" title="摆线"></a>摆线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101740641.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101741395.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101741558.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101741457.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101742690.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101742322.png"></p>
-<h2 id="伯努利双扭线"><a href="#伯努利双扭线" class="headerlink" title="伯努利双扭线"></a>伯努利双扭线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101743743.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101743775.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101744793.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745574.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745024.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745308.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745057.png"></p>
-<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745470.png"></p>
-<h2 id="笛卡尔叶形线"><a href="#笛卡尔叶形线" class="headerlink" title="笛卡尔叶形线"></a>笛卡尔叶形线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101747130.png"></p>
-<h2 id="阿基米德螺线"><a href="#阿基米德螺线" class="headerlink" title="阿基米德螺线"></a>阿基米德螺线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101747767.png"></p>
-<h2 id="玫瑰线"><a href="#玫瑰线" class="headerlink" title="玫瑰线"></a>玫瑰线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101748028.png"></p>
-]]></content>
-      <categories>
-        <category>系统学习</category>
-        <category>数学</category>
-      </categories>
-      <tags>
-        <tag>数学知识</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>张颂文老师</title>
     <url>/2024/08/14/%E5%BC%A0%E9%A2%82%E6%96%87%E8%80%81%E5%B8%88/</url>
     <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>这个假期最火的电视剧可能就是《狂飙》了。</p>
@@ -2274,33 +2188,194 @@ title(&#39;Bins = 50&#39;);
       </tags>
   </entry>
   <entry>
-    <title>随便写写</title>
-    <url>/2024/09/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/</url>
-    <content><![CDATA[<p>听见 冬天 的离开</p>
-<p>我在某年某月醒过来</p>
-<p>我想 我等 我期待</p>
-<p>未来却不能因此安排</p>
-<p>阴天 傍晚 车窗外</p>
-<p>未来有一个人在等待</p>
-<p>向左 向右 向前看</p>
-<p>爱要拐几个弯才来</p>
-<p>我遇见谁 会有怎样的对白</p>
-<p>我等的人 他在多远的未来</p>
-<p>我听见风 来自地铁和人海</p>
-<p>我排着队 拿着爱的号码牌</p>
-<p>阴天 傍晚 车窗外</p>
-<p>未来有一个人在等待</p>
-<p>向左 向右 向前看</p>
-<p>爱要拐几个弯才来</p>
-<p>我遇见谁 会有怎样的对白</p>
-<p>我等的人 他在多远的未来</p>
-<p>我听见风 来自地铁和人海</p>
-<p>我排着队 拿着爱的号码牌</p>
-<p>我往前飞 飞过一片时间海</p>
-<p>我们也曾在爱情里受伤害</p>
-<p>我看着路 梦的入口有点窄</p>
-<p>我遇见你 是最美丽的意外</p>
-<p>总有一天 我的谜底会揭开</p>
+    <title>快捷键</title>
+    <url>/2025/04/22/%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    <content><![CDATA[<p>（一）Win键</p>
+<p>win + e；打开资源管理器。</p>
+<p>win + d；显示桌面，再按一次恢复窗口。</p>
+<p>win + r；运行对话框，这个运行如果用的好，基本上你就可以告别鼠标；</p>
+<p>1、在运行对话框中输入cmd，进入<a href="https://zhida.zhihu.com/search?content_id=20060326&content_type=Answer&match_order=1&q=%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%A8%A1%E5%BC%8F&zhida_source=entity">命令行模式</a>。</p>
+<p>2、在运行对话框中输入control，进入<a href="https://zhida.zhihu.com/search?content_id=20060326&content_type=Answer&match_order=1&q=%E6%8E%A7%E5%88%B6%E9%9D%A2%E6%9D%BF&zhida_source=entity">控制面板</a>。</p>
+<p>3、在运行对话框中输入appwiz.cpl,进入<a href="https://zhida.zhihu.com/search?content_id=20060326&content_type=Answer&match_order=1&q=%E7%A8%8B%E5%BA%8F%E4%B8%8E%E5%8A%9F%E8%83%BD&zhida_source=entity">程序与功能</a>。</p>
+<p>4、在运行对话框中输入msconfig，进入<a href="https://zhida.zhihu.com/search?content_id=20060326&content_type=Answer&match_order=1&q=%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE&zhida_source=entity">系统配置</a>。</p>
+<p>5、在运行对话框中输入chrome，打开谷歌浏览器，前提是你安装了chrome。同理这个可以用来快捷的打开一些应用程序。如果是经常使用的应用程序可以将它固定到任务栏，然后通过快捷键，win + 1、win + 2、win + 3来进行快捷访问。</p>
+<p>6、在运行对话框中输入shutdown -s -t 0；立刻关机，后面的0代表0秒后关机，可以修改为600，就是十分钟后关机。</p>
+<p>7、在运行对话框中输入shutdown -a，取消定时关机。</p>
+<p>win + x；这应该是window 8之后才有的快捷键，可以呼出很多相关设置。</p>
+<p>win + space；切换输入法；shift可以快速切换中英文。</p>
+<p>win + l；锁定屏幕。</p>
+<p>win + q；呼出小娜，文字输入。</p>
+<p>win + c；呼出小娜，语音输入。</p>
+<p>win + s；搜索。</p>
+<p>win + tab；切换桌面。</p>
+<p>windows 10之后可以创建多桌面了。总结一下相关的快捷键。</p>
+<p>win + ctrl + d；创建新桌面；</p>
+<p>win + ctrl + f4；关闭当前桌面，已经打开的应用程序不会丢失，会回到默认的桌面。</p>
+<p>win + ctrl + 方向键；快速切换桌面。</p>
+<p>win键组合方向键可以控制窗口的大小，这个你可以自己试一下。</p>
+<p>win + 向上方向键；窗口最大化。</p>
+<p>win + 向左 + 向上；左上角四分之一窗口。</p>
+<p>（二）Ctrl键和Alt键，Ctrl键和Alt键大多数会配合应用程序使用。</p>
+<p>ctrl + shift + esc；呼出<a href="https://zhida.zhihu.com/search?content_id=20060326&content_type=Answer&match_order=1&q=%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%99%A8&zhida_source=entity">任务管理器</a>。</p>
+<p>在edge浏览器中的一些快捷键，chrom里也是适用的。</p>
+<p>ctrl + w；关闭标签。</p>
+<p>ctrl + t；新建标签。</p>
+<p>ctrl + shift + t;恢复刚关闭的标签。</p>
+<p>ctrl + h；历史纪录。</p>
+<p>ctrl + j；下载列表。</p>
+<p>ctrl + f；在页面内查找。</p>
+<p>ctrl + n；新窗口</p>
+<p>ctrl + 1到ctrl +8；打开对应的标签。</p>
+<p>ctrl + 9；打开最后的那个标签。</p>
+<p>ctrl + tab；切换到下一个标签。</p>
+<p>ctrl + shift + tab；切换到上一个标签。</p>
+<p>ctrl + r；重新加载当前页。</p>
+<p>ctrl + d；加入书签。</p>
+<p>alt + d；输入定位到地址栏。f6、ctrl + l都有同样的效果。</p>
+<p>alt + f4；关闭应用程序。</p>
+<p>alt + space；呼出窗口控制的菜单</p>
+<p>ctrl + c，ctrl + v这些都很常用我就不多说了。</p>
+<p>如果你使用的浏览器是chrome或者firefox推荐使用<a href="https://zhida.zhihu.com/search?content_id=20060326&content_type=Answer&match_order=1&q=Vimium&zhida_source=entity">Vimium</a>，这个简直就是效率神器，上网从此就摆脱鼠标了。</p>
+<p>很多应用程序中有自己的一套功能的快捷键，只能靠题主自己去搜索了。</p>
+<p>（三）键盘上一的一些功能键</p>
+<p>了解这些功能键的使用方法。</p>
+<p>F1键；帮助</p>
+<p>F2键；选择文件或文件夹的情况下，重命名该文件文件夹。</p>
+<p>F3键；搜索</p>
+<p>F4键；IE中的地址栏。</p>
+<p>F5键；刷新。</p>
+<p>F10键；shift + f10显示右键菜单</p>
+<p>F11键；浏览器或者资源管理器的全屏显示</p>
+<p>caps lock键；锁定大写。</p>
+<p>home键；光标移动到句首。shift + home，选择从光标位置到句首的字符，也可以使用方向键逐个字符的选择，end键同理。</p>
+<p>end键；光标移动到句尾。</p>
+<p>pg down键；向下翻页。</p>
+<p>pg up键；向上翻页。</p>
+<p>backspace键；向前删除字符。</p>
+<p>delete；删除键。向后删除字符。</p>
+<p>prt sc；这个按键可以用来快速截屏。按下按键之后咋一看没啥反应，这时候你可以打开windows自带的画图程序，按ctrl + v粘贴，你就可以另存为图片格式了。</p>
+<p>enter键。。。。。这个不用说了吧。</p>
+<p>fn键；笔记本上的功能键，组合f1到f12有不同的功能。自己试试吧，每台电脑都不一样。</p>
+<p>还有一个按键很有用，但是我叫不出名字。一般会安排在右ctrl旁边。像功能列表一样的按键，这个按键可以代替鼠标右键。</p>
 ]]></content>
+      <categories>
+        <category>系统学习</category>
+        <category>window</category>
+      </categories>
+      <tags>
+        <tag>文档知识</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>曲线</title>
+    <url>/2024/09/10/%E6%9B%B2%E7%BA%BF/</url>
+    <content><![CDATA[<h1 id="考研曲线"><a href="#考研曲线" class="headerlink" title="考研曲线"></a>考研曲线</h1><p>相信大家在做习题集时常常会碰到某些曲线，像什么摆线、星(心)型线等之类的曲线。若不熟悉这些图形，到考试的时候往往某些题会无从下手，也不是说无从下手，有些曲线可以通过<a href="https://zhida.zhihu.com/search?q=%E6%B1%82%E5%AF%BC&zhida_source=entity&is_preview=1">求导</a>、求极值可大致分析出是什么图形。如果在考场上，这样做显然会浪费时间。比如2018年数二第17题，那道<a href="https://zhida.zhihu.com/search?q=%E4%BA%8C%E9%87%8D%E7%A7%AF%E5%88%86&zhida_source=entity&is_preview=1">二重积分</a>的区域D就是摆线与x轴围成的。</p>
+<p>为了帮助大家应对这种情况，本人将总结出较为常用的曲线以应对考研、期末考试、自学等遇到的情况。</p>
+<p>教材以<strong>《高等数学》——同济七(八)版</strong>为主，总结对象是该教材<strong>附录Ⅲ</strong>中的部分曲线，这部分曲线会常出现在真题以及市面上各种习题册中。对于某些不常用或用来出题概率较低的曲线，暂时不做总结，若以后出现了，则再进行一定的补充。</p>
+<p>本系列篇幅会尽量总结曲线的表达式、图像、弧长、面积、<a href="https://zhida.zhihu.com/search?q=%E6%97%8B%E8%BD%AC%E4%BD%93%E7%A7%AF&zhida_source=entity&is_preview=1">旋转体积</a>、旋转表面积等之类的常用结论，当然不是全部。对于该曲线不常用的结论，就不再过多阐述。</p>
+<p><strong>由于涉及到求曲线面积、弧长等参数，本人”尽量”利用曲线的各种形式去进行计算，甚至有的地方可能会涉及到多种计算方法，有的方法好、有的方法较为繁琐，望读者选取最合适的方法对此进行吸收。</strong></p>
+<p>如果对你有帮助，请不忘收藏、点赞或转发给身边需要帮助的同学。</p>
+<blockquote>
+<p>内容概要</p>
+</blockquote>
+<p><strong>★<a href="https://zhida.zhihu.com/search?q=%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%BF%83%E5%BD%A2%E7%BA%BF&zhida_source=entity&is_preview=1">笛卡尔心形线</a></strong></p>
+<p><strong>★星形线</strong></p>
+<p><strong>★摆线</strong></p>
+<p><strong>★伯努利双纽线</strong></p>
+<p><strong>★<a href="https://zhida.zhihu.com/search?q=%E7%AC%9B%E5%8D%A1%E5%B0%94%E5%8F%B6%E5%BD%A2%E7%BA%BF&zhida_source=entity&is_preview=1">笛卡尔叶形线</a></strong></p>
+<p>★<strong>阿基米德螺线</strong></p>
+<p>★**<a href="https://zhida.zhihu.com/search?q=%E7%8E%AB%E7%91%B0%E7%BA%BF&zhida_source=entity&is_preview=1">玫瑰线</a>**</p>
+<p>在总结曲线之前，大家要知道定积分在直角或<a href="https://zhida.zhihu.com/search?q=%E6%9E%81%E5%9D%90%E6%A0%87&zhida_source=entity&is_preview=1">极坐标</a>的几何应用中计算面积、弧长、旋转体积、<a href="https://zhida.zhihu.com/search?q=%E6%97%8B%E8%BD%AC%E8%A1%A8%E9%9D%A2%E7%A7%AF&zhida_source=entity&is_preview=1">旋转表面积</a>等公式与三种坐标的变换。这部分内容在各大参考书上都有详细讲解，这里就不再一一列出。</p>
+<h2 id="和差化积"><a href="#和差化积" class="headerlink" title="和差化积"></a>和差化积</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081559486.png"></p>
+<h2 id="笛卡尔心形线-Cardioid"><a href="#笛卡尔心形线-Cardioid" class="headerlink" title="笛卡尔心形线(Cardioid)"></a><strong>笛卡尔心形线(Cardioid)</strong></h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081549901.png" alt="1"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081550196.png" alt="2"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081551362.png" alt="3"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081544227.png" alt="4"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081552582.png" alt="5"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409081555292.png" alt="6"></p>
+<h2 id="星型线"><a href="#星型线" class="headerlink" title="星型线"></a>星型线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101737956.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738435.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738779.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738458.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101738131.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101739032.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101739219.png"></p>
+<h2 id="摆线"><a href="#摆线" class="headerlink" title="摆线"></a>摆线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101740641.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101741395.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101741558.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101741457.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101742690.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101742322.png"></p>
+<h2 id="伯努利双扭线"><a href="#伯努利双扭线" class="headerlink" title="伯努利双扭线"></a>伯努利双扭线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101743743.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101743775.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101744793.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745574.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745024.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745308.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745057.png"></p>
+<p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101745470.png"></p>
+<h2 id="笛卡尔叶形线"><a href="#笛卡尔叶形线" class="headerlink" title="笛卡尔叶形线"></a>笛卡尔叶形线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101747130.png"></p>
+<h2 id="阿基米德螺线"><a href="#阿基米德螺线" class="headerlink" title="阿基米德螺线"></a>阿基米德螺线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101747767.png"></p>
+<h2 id="玫瑰线"><a href="#玫瑰线" class="headerlink" title="玫瑰线"></a>玫瑰线</h2><p><img src="https://raw.githubusercontent.com/sadpolarbear/picture/main/nowdays/202409101748028.png"></p>
+]]></content>
+      <categories>
+        <category>系统学习</category>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>数学知识</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>向左走，向右走</title>
+    <url>/2024/09/10/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/</url>
+    <content><![CDATA[<!DOCTYPE html><html>  
+<head>  
+    <title>test</title>  
+    <meta charset="UTF-8">  
+</head>  
+<style>  
+.one {  
+    margin: 0 auto;  
+    height: 140px;  
+    writing-mode: vertical-lr;/*从左向右 从右向左是 writing-mode: vertical-rl;*/  
+    writing-mode: tb-lr;/*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/  
+}  
+</style>  
+<body>  
+    <div class="one">听见冬天的离开，我在 某年 某月 醒过来，我想 我等 我期待，未来却不能因此安排。阴天 傍晚 车窗外，未来有一个人在等待，向左 向右 向前看，爱要拐几个弯才来。我遇见谁，会有怎样的对白，我等的人，他在多远的未来，我听见风，来自地铁和人海，我排着队，拿着爱的号码牌。</div>  
+    <div class="one">阴天 傍晚 车窗外，未来有一个人在等待，向左 向右 向前看，爱要拐几个弯才来，我遇见谁，会有怎样的对白，我等的人，他在多远的未来，我听见风，来自地铁和人海，我排着队，拿着爱的号码牌。</div>
+    <div class="one">我往前飞，飞过一片时间海，我们也曾在爱情里受伤害，我看着路，梦的入口有点窄，我遇见你，是最美丽的意外。总有一天，我的谜底会揭开。</div>    
+</body>  
+</html> 
+
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2117776761&auto=1&height=66"></iframe>]]></content>
+  </entry>
+  <entry>
+    <title>诺米</title>
+    <url>/2024/08/14/%E8%AF%BA%E7%B1%B3/</url>
+    <content><![CDATA[<h1 id="诺米，追梦的少年"><a href="#诺米，追梦的少年" class="headerlink" title="诺米，追梦的少年"></a>诺米，追梦的少年</h1><p>一切要从《中国新说唱2024》的海选说起，这个春天，无锡荟聚了400多名全国各地的rapper。诺米也收到邀请函，他用妈妈借的钱订机票，赴锡赶考。诺米报名了谢帝的评委选拔组别，却惨遭淘汰，而后，海选rapper圈子对谢帝组可能存在黑箱操作以及评审的权力关系表达抗议。</p>
+<p>有博主分析海选的流程规则，认为主办方召集了过多选手，在密集时间进行试唱，评委的注意力分配不合理，从早到晚评委累麻了，面对晚间上场的选手时已体能耗尽，可能对一些选手的基本信息都不了解。谢帝甚至都搞错了《阿普的思念》是唱给爷爷的。诺米重复着美式男孩的口头禅录视频，红着眼眶说“他说让我当个爱好，但这是我的梦想，我为什么要当个爱好”。</p>
+<p>诺米对曾经的偶像失望，于是创作了《谢天谢帝》表达不满。说唱圈的diss歌，一般都是脏话豪车美女票子来镇场面，而诺米的整首歌恰恰相反。这是首低成本MV，所有镜头在成都玉林七巷的街区公园拍摄，唯一的互动道具是老小区的公共健身器材，也成为整首歌的抽象爽点。</p>
+<h1 id="抽象的作品，具象的“网红”"><a href="#抽象的作品，具象的“网红”" class="headerlink" title="抽象的作品，具象的“网红”"></a>抽象的作品，具象的“网红”</h1><p>你以为诺米应该是搞笑的，但他却又超出意料的深刻。网友了解后发现，在海选被淘汰时谢帝提到的《阿普的思念》，是诺米写给爷爷的歌曲，歌词与情感远比自己想象的深刻；诺米不仅有《阿普的思念》，还有《孤独材料》，两首歌曲目前在QQ音乐飙升榜上分别占据着第四和第五的位置；在他短视频的主页中，《枯木逢春》这首歌的点赞已经近80万，被网友称赞“去的是伯克利”；还有为家乡凉山正名的歌词：“我们凉山人脏确实从小没有好的环境，那你是否也应该去对自己的所讲反省。”</p>
+<p>根据网络报道，诺米来自四川凉山州，妈妈在便利店当收银员。玩说唱之前，诺米做过厨师、骑三轮车卖水果，他还和父亲一起在工地当过架子工，并且因为意外失去了一节小拇指。因为家庭的条件不好，诺米参加新说唱的机票钱，还是妈妈找邻居借的。</p>
+<p>还有网友晒出诺米小时候帮家里耕地做农活、在学校读书时的照片，照片上的诺米一看就是特别朴实的孩子。还有很多网友晒出了之前偶遇他的照片和视频，这些网络曝光的素材里，诺米总是一个人戴着帽子、背着背包，耳朵里塞着有线耳机，边走边练习自己的rap，看上去特别孤独，这进一步加深了他在网友眼中的弱势形象。</p>
+<p>此外，还有网络文章提到诺米早期因为没有名气，做音乐又需要花钱，所以经常连酒店都住不起只能露宿街头，甚至因此被人打过。还有网友晒出聊天记录，显示自己邀请诺米住到自己的寝室，但被拒绝，诺米只是洗了个澡就离开。以及有粉丝给诺米发红包也被婉拒，他还叮嘱粉丝不要随便给人钱，以免被骗。</p>
+<p><img src="https://imagepphcloud.thepaper.cn/pph/image/299/366/762.jpg" alt="img"></p>
+<p>哪怕是在“成都迪士尼”爆火后，诺米也仅仅在4月5日发布视频呼吁前往打卡的网友们“周围住的都是老爷爷老奶奶，希望大家别扰民。”</p>
+<p>在“我要迪士尼”之前，他是自诩“美式男孩”的《新说唱》淘汰rapper，但如今他是尽管家境并不富裕但依旧追逐说唱梦的大凉山男孩。甚至他写给爷爷的歌《阿普的思念》，也被央视文旅、凉山文旅“翻牌”作为地方宣传片的配乐。</p>
+<p>一个努力生活又努力追梦，搞笑又悲情的形象跃然屏幕之上。</p>
+<p>网友们越深扒越感动，草根诺米的故事立刻传遍互联网的大街小巷，其中的反差感，让网友们笑着笑着就哭了！</p>
+<p>这些具体的生活细节，同频的人生经历。这不就正是大多数年轻人所经历的人生么？留守儿童、小镇青年、城市打工仔、流浪街头的草根文艺创作者，却一直没有放弃梦想。诺米在成名后演出现场的击拳视频，在抖音上成为运镜转场模板，象征着追梦少年的励志故事原型。诺米与彝族妞妞合唱团合作童声版《阿普的思念》，并准备把部分版税捐给留守儿童。</p>
+<p>普通人就是喜欢那个纯粹，热爱家乡，也爱追梦的少年！</p>
+<p>在诺米身上，你看到曾经的自己了吗？</p>
+]]></content>
+      <categories>
+        <category>励志名人堂</category>
+      </categories>
+      <tags>
+        <tag>励志故事</tag>
+      </tags>
   </entry>
 </search>
